@@ -111,6 +111,11 @@ body {
     color: white;
 }
 
+/* tskt  */
+.tskt-list{
+    font-size: 20px;
+}
+
 /* Footer */
 .footer {
   background-color: #2e2e2e;

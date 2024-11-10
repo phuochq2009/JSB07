@@ -10,7 +10,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/login.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -61,50 +61,22 @@
       </div>
     </section>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-      <h1>Chào Mừng Đến Với QUANGPHUOC STORE</h1>
-      <p>Khám phá những mẫu laptop mới nhất, mạnh mẽ nhất với giá cả hợp lý.</p>
-      <a href="#about" class="btn">Tìm Hiểu Thêm</a>
-    </section>
+    <!-- login  -->
+    <div class="container-fluid">
+      <div class="form">
+        <h1>SIGN UP</h1>
+        <form>
+          <label>Email</label><br />
+          <input type="email" id="email" /><br />
+          <label>Password</label><br />
+          <input type="password" id="password" /> <br />
+          <input type="checkbox" onclick="myFunction()" />Show password <br />
 
-    <!-- About Section -->
-    <section id="about" class="about colored-section">
-      <h2>Về Chúng Tôi</h2>
-      <p>
-        QUANGPHUOC STORE là nền tảng bán laptop phục vụ cho công việc, học tập,
-        chơi game,... Chúng tôi luôn hướng đến sự đơn giản, tiện lợi và bảo mật
-        cho người dùng.
-      </p>
-    </section>
-
-    <!-- Features Section -->
-    <section id="features" class="features">
-      <h2>Tính Năng Nổi Bật</h2>
-      <div class="feature-list">
-        <div class="feature">
-          <h3>Bảo mật cao</h3>
-          <p>
-            Chúng tôi cam kết bảo vệ thông tin cá nhân của bạn với công nghệ bảo
-            mật tiên tiến nhất.
-          </p>
-        </div>
-        <div class="feature">
-          <h3>Dễ dàng sử dụng</h3>
-          <p>
-            Giao diện thân thiện và trực quan, phù hợp cho mọi đối tượng người
-            dùng.
-          </p>
-        </div>
-        <div class="feature">
-          <h3>Hỗ trợ 24/7</h3>
-          <p>
-            Đội ngũ hỗ trợ luôn sẵn sàng giải đáp mọi thắc mắc của bạn mọi lúc,
-            mọi nơi.
-          </p>
-        </div>
+          <input type="submit" value="Login" onclick="login()" />
+        </form>
       </div>
-    </section>
+    </div>
+
     <!-- Footer -->
     <footer class="footer">
       <div class="footer-content">
@@ -150,4 +122,5 @@
       crossorigin="anonymous"
     ></script>
   </body>
+  <script src="./js/login.js"></script>
 </html>
