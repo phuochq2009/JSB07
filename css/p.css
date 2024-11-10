@@ -51,57 +51,66 @@ body {
 .navbar-nav a:hover {
   color: #ddd;
 }
-/* Products Section */
-.products {
-  padding: 50px 20px;
-  text-align: center;
+/* general  */
+.general-container{
+    margin: 0 10%;
 }
 
-.products h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
+/* carousel  */
+
+.carousel-container {
+  position: relative;
+  max-width: 40%;
+  margin: 20px 0;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
-.product-list {
+.carousel {
   display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  transition: transform 0.5s ease;
 }
 
-.product-item {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 5px;
-  width: 250px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.carousel-image {
+  min-width: 100%;
+  height: auto;
 }
 
-.product-item img {
-  max-width: 100%;
-  border-radius: 5px;
-}
-
-.price {
-  font-size: 1.1em;
-  color: #007bff;
-  margin: 10px 0;
-}
-
-.details{
-  text-decoration: none;
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
   color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 3;
 }
 
-.btn{
-  background-color: red;
+.carousel-button.prev {
+  left: 10px;
 }
 
-.btn:hover{
-  transform: scale(1.2);
-  background-color: red;
+.carousel-button.next {
+  right: 10px;
 }
+
+/* name  */
+.name{
+    margin: 5% 0;
+}
+.gift{
+    border: 1px solid black;
+}
+.gift-head{
+    padding: 0 20px;
+    background-color: red;
+    color: white;
+}
+
 /* Footer */
 .footer {
   background-color: #2e2e2e;

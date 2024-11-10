@@ -10,24 +10,28 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="./css/store.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
     <!-- nav  -->
     <section class="colored-section">
       <div class="container-fluid">
         <!-- Nav Bar -->
-        
+
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand trade-winds-regular" href="./main.html">QUANGPHUOC</a>
+          <a class="navbar-brand trade-winds-regular" href="./main.html"
+            >QUANGPHUOC</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -57,38 +61,52 @@
       </div>
     </section>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-      <h1>Chào Mừng Đến Với QUANGPHUOC STORE</h1>
-      <p>Khám phá những tiện ích và tính năng đặc biệt giúp bạn trải nghiệm tốt hơn.</p>
-      <a href="#about" class="btn">Tìm Hiểu Thêm</a>
-    </section>
-  
-    <!-- About Section -->
-    <section id="about" class="about colored-section">
-      <h2>Về Chúng Tôi</h2>
-      <p>QUANGPHUOC STORE là nền tảng bán laptop phục vụ cho công việc, học tập, chơi game,... Chúng tôi luôn hướng đến sự đơn giản, tiện lợi và bảo mật cho người dùng.</p>
-    </section>
-  
-    <!-- Features Section -->
-    <section id="features" class="features">
-      <h2>Tính Năng Nổi Bật</h2>
-      <div class="feature-list">
-        <div class="feature">
-          <h3>Bảo mật cao</h3>
-          <p>Chúng tôi cam kết bảo vệ thông tin cá nhân của bạn với công nghệ bảo mật tiên tiến nhất.</p>
+    <!-- Product Section -->
+    <section class="products">
+      <h2>Sản Phẩm Nổi Bật</h2>
+      <div class="product-list">
+        <!-- Product 1 -->
+        <div class="product-item">
+          <img
+            src="https://product.hstatic.net/1000233206/product/msi-katana-15-b13vek-252vn-i7-13620h-rtx-4050_b75fcd672d454214af057a20d7b3e728_grande.png"
+            alt="Laptop MSI Katana 15 i7-13620H/8GB/512GB/Win11 (B13VEK-252VN)"
+          />
+          <h5>Laptop MSI Katana 15 i7-13620H /8GB /512GB /Win11 (B13VEK-252VN)</h5>
+          <p class="price">32,990,000 VND</p>
+          <button class="btn"><a class="details" href="p1.html">Chi tiết</a></button>
         </div>
-        <div class="feature">
-          <h3>Dễ dàng sử dụng</h3>
-          <p>Giao diện thân thiện và trực quan, phù hợp cho mọi đối tượng người dùng.</p>
+        <!-- Product 2 -->
+        <div class="product-item">
+          <img src="laptop2.jpg" alt="Laptop 2" />
+          <h3>Laptop XYZ</h3>
+          <p class="price">25,000,000 VND</p>
+          <button class="btn"><a class="details" href="">Chi tiết</a></button>
         </div>
-        <div class="feature">
-          <h3>Hỗ trợ 24/7</h3>
-          <p>Đội ngũ hỗ trợ luôn sẵn sàng giải đáp mọi thắc mắc của bạn mọi lúc, mọi nơi.</p>
+        <!-- Product 3 -->
+        <div class="product-item">
+          <img src="laptop3.jpg" alt="Laptop 3" />
+          <h3>Laptop 123</h3>
+          <p class="price">30,000,000 VND</p>
+          <button class="btn"><a class="details" href="">Chi tiết</a></button>
+        </div>
+        <!-- Product 4  -->
+        <div class="product-item">
+          <img src="laptop4.jpg" alt="Laptop 4" />
+          <h3>Laptop XYZ</h3>
+          <p class="price">25,000,000 VND</p>
+          <button class="btn"><a class="details" href="">Chi tiết</a></button>
+        </div>
+        <!-- Laptop 5  -->
+        <div class="product-item">
+          <img src="laptop2.jpg" alt="Laptop 2" />
+          <h3>Laptop XYZ</h3>
+          <p class="price">25,000,000 VND</p>
+          <button class="btn"><a class="details" href="">Chi tiết</a></button>
         </div>
       </div>
     </section>
-  <!-- Footer -->
+
+    <!-- Footer -->
     <footer class="footer">
       <div class="footer-content">
         <div class="footer-section company-name">
@@ -108,18 +126,23 @@
           <p><i class="fas fa-map-marker-alt"></i> Ho Chi Minh City, Vietnam</p>
           <p><i class="fas fa-envelope"></i> QUANGPHUOC@example.com</p>
           <p><i class="fas fa-phone"></i> 1234 5878</p>
-
         </div>
         <div class="footer-section social">
           <h3>Theo dõi</h3>
           <div class="social-icons">
-            <a target="_blank" href="https://facebook.com"><i class="fab fa-facebook"></i></a>
-            <a target="_blank" href="https://tiktok.com"><i class="fab fa-tiktok"></i></a>
-            <a target="_blank" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://facebook.com"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a target="_blank" href="https://tiktok.com"
+              ><i class="fab fa-tiktok"></i
+            ></a>
+            <a target="_blank" href="https://twitter.com"
+              ><i class="fab fa-twitter"></i
+            ></a>
           </div>
         </div>
       </div>
-     
+
       <a href="#top" class="scroll-to-top"><i class="fas fa-arrow-up"></i></a>
     </footer>
     <script
