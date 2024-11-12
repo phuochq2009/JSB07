@@ -110,14 +110,13 @@ body {
   background-color: red;
   color: white;
 }
-.btnm{
+.btnm {
   display: inline-block;
-    padding: 10px 20px;
-    background-color: #fe0000;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-
+  padding: 10px 20px;
+  background-color: #fe0000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
 }
 .btnm:hover {
   background-color: #b32d2ddc;
@@ -131,7 +130,7 @@ body {
   border: solid 1px black;
 }
 .tskt-head {
-  background: linear-gradient(to left, #FF7878, #ff0000);
+  background: linear-gradient(to left, #ff7878, #ff0000);
   margin-left: 1%;
   color: transparent;
   background-clip: text;

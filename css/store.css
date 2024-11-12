@@ -89,16 +89,16 @@ body {
   margin: 10px 0;
 }
 
-.details{
+.details {
   text-decoration: none;
   color: white;
 }
 
-.btn{
+.btn {
   background-color: red;
 }
 
-.btn:hover{
+.btn:hover {
   transform: scale(1.2);
   background-color: red;
 }
