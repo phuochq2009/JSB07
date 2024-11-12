@@ -2,8 +2,8 @@
   background-color: #fe0000;
 }
 .container-fluid {
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 20rem;
+  padding-right: 20rem;
 }
 
 .trade-winds-regular {
@@ -52,8 +52,8 @@ body {
   color: #ddd;
 }
 /* general  */
-.general-container{
-    margin: 0 10%;
+.general-container {
+  margin: 0 10%;
 }
 
 /* carousel  */
@@ -99,21 +99,43 @@ body {
 }
 
 /* name  */
-.name{
-    margin: 5% 0;
+.name {
+  margin: 5% 0;
 }
-.gift{
-    border: 1px solid black;
+.gift {
+  border: 1px solid black;
 }
-.gift-head{
-    padding: 0 20px;
-    background-color: red;
-    color: white;
+.gift-head {
+  padding: 0 20px;
+  background-color: red;
+  color: white;
+}
+.btnm{
+  display: inline-block;
+    padding: 10px 20px;
+    background-color: #fe0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.btnm:hover {
+  background-color: #b32d2ddc;
 }
 
 /* tskt  */
-.tskt-list{
-    font-size: 20px;
+.tskt-list {
+  font-size: 20px;
+}
+.tskt {
+  border: solid 1px black;
+}
+.tskt-head {
+  background: linear-gradient(to left, #FF7878, #ff0000);
+  margin-left: 1%;
+  color: transparent;
+  background-clip: text;
+  font-size: 2.5rem;
 }
 
 /* Footer */

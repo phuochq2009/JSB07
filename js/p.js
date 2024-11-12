@@ -17,3 +17,14 @@ function changeSlide(step) {
 document.addEventListener('DOMContentLoaded', () => {
     showSlide(currentSlide);
 });
+
+function buy() {
+    const isLogin = localStorage.getItem('isLogin');
+    if (isLogin) {
+        location.href = 'location.html';
+        
+    } else {
+        alert('Please login to buy')
+       
+    }
+}
