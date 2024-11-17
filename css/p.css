@@ -100,7 +100,7 @@ body {
 
 /* name  */
 .name {
-  margin: 5% 0;
+  margin: 5% 0 0 0;
 }
 .gift {
   border: 1px solid black;
@@ -123,18 +123,59 @@ body {
 }
 
 /* tskt  */
-.tskt-list {
+.igdd{
+  text-align: center;
+}
+.igd{
+  width: 60rem;
+  
+}
+
+.modal-body{
+  padding: 0;
+}
+.title {
+  width: 40%;
+  color: #7a7d8d;
+  padding-left: 15px;
+  font-size: 15px;
+  line-height: 24px;
+  padding-top: 20px;
+  vertical-align: top;
+}
+
+.value {
+  width: 60%;
+  color: #4a4a4a;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 20px;
+  vertical-align: top;
+}
+
+/* tính năng */
+.featuree {
+  text-align: center;
+  margin: 0 40px;
+}
+.featuree h1 {
+  margin: 10px 0;
+}
+.featuree p {
+  margin: 10px 0;
   font-size: 20px;
 }
-.tskt {
-  border: solid 1px black;
+
+.k {
+  padding: 100px 0;
 }
-.tskt-head {
-  background: linear-gradient(to left, #ff7878, #ff0000);
-  margin-left: 1%;
-  color: transparent;
-  background-clip: text;
-  font-size: 2.5rem;
+
+.row {
+  margin: 10px 0;
+}
+.q p {
+  margin: 10px 10rem;
 }
 
 /* Footer */
