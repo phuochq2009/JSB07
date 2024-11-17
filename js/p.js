@@ -23,6 +23,6 @@ function buy() {
   if (isLogin) {
     location.href = "location.html";
   } else {
-    alert("Please login to buy");
+    alert("Vui lòng đăng nhập để mua hàng");
   }
 }

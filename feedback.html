@@ -10,7 +10,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="./css/feedback.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -53,9 +53,6 @@
                 <a class="nav-link" href="#">Gọi mua: 0899838390</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./feedback.html">Đánh giá</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="./login.html">Đăng nhập</a>
               </li>
             </ul>
@@ -65,20 +62,16 @@
     </section>
 
     <!-- login  -->
-    <div class="container-fluid">
-      <div class="form">
-        <h1>SIGN UP</h1>
+    <div class="container-fluid feedback-body">
+      <div id="panel" class="panel-container">
+        <strong>Bạn hài lòng như thế nào với dịch vụ <br> chăm sóc khách hàng của chúng tôi </strong>
         <form>
-          <label>Email</label><br />
-          <input type="email" id="email" /><br />
-          <label>Password</label><br />
-          <input type="password" id="password" /> <br />
-          <input type="checkbox" onclick="myFunction()" />Show password <br />
-
-          <input type="submit" value="Login" onclick="login()" />
+          <input type="text" id="feedback" /><br />
+          <input type="submit" value="Gửi đánh giá" onclick="feedback()" />
         </form>
+        
+        
       </div>
-      <span>Chưa đăng nhập? Hãy </span><a href="./signup.html">Đăng kí</a>
     </div>
 
     <!-- Footer -->
@@ -126,5 +119,5 @@
       crossorigin="anonymous"
     ></script>
   </body>
-  <script src="./js/login.js"></script>
+  <script src="./js/feedback.js"></script>
 </html>
