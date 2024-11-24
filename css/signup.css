@@ -142,3 +142,20 @@ body {
 .scroll-to-top:hover {
   background-color: #d32f2f;
 }
+
+.cent{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+
+.header-form{
+  font-size: 3rem;
+  color: #f44336;
+  font-weight: bolder;
+}
+
+.redd{
+  background-color: #f44336;
+  color: white;
+}
