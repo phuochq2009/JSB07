@@ -22,7 +22,7 @@ function signUp() {
 
   for (let i = 0; i < users.length; i++) {
     if (users[i].email === emailData) {
-      alert("Email already exists");
+      alert("Email đã tồn tại");
       return;
     }
   }
@@ -38,4 +38,5 @@ function signUp() {
   localStorage.setItem("users", JSON.stringify(users));
 
   alert("Đăng kí thành công");
+  location.href ="login.html"
 }

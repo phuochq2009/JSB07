@@ -29,3 +29,11 @@ function login() {
   }
   alert("email hoặc mật khẩu không đúng");
 }
+
+while(true){
+  if (isLogin) {
+    document.getElementById("textt").innerText = "Hello";
+  } else {
+    document.getElementById("textt").innerText = "Đăng nhập";
+  }
+}
