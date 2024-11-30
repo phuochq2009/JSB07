@@ -23,17 +23,32 @@ function login() {
       const isLogin = true;
       localStorage.setItem("isLogin", isLogin);
 
-      alert("Đăng nhập thành công");
+      alert("Đăng nhập thành công");  
+      location.href='index.html'  
       return;
     }
   }
   alert("email hoặc mật khẩu không đúng");
 }
 
-while(true){
+function checkLoginStatus() {
+  const isLogin = localStorage.getItem("isLogin");
+  const users = JSON.parse(localStorage.getItem("users")) || [];
   if (isLogin) {
-    document.getElementById("textt").innerText = "Hello";
+    document.getElementById('textt').innerHTML= `
+    <a class="nav-link" id="textt" z href="#"> ${users[0].email}  </a>
+    `;
   } else {
-    document.getElementById("textt").innerText = "Đăng nhập";
+    document.getElementById('textt').innerHTML = `
+    <a class="nav-link" id="textt" href="./login.html">Đăng nhập</a>`
   }
 }
+
+checkLoginStatus()
+
+
+function logout() {
+  localStorage.removeItem("isLogin")
+}
+
+
